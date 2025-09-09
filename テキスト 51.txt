@@ -1,0 +1,42 @@
+
+(2025-07-03 13:17:42 +0000) [splunk -> flushMessages] {
+  "events" : [
+    {
+      "_productFamily" : "iPhone",
+      "_sessionID" : "blbnPcWmS8axUsY1sJ\/dIA==",
+      "_productModel" : "iPhone13,1",
+      "_build" : "22F76",
+      "_canShareWithDevelopers" : true,
+      "_internal" : 0,
+      "clientId" : "69FA0C7D-A8EB-4909-80EC-BE9701524D7B",
+      "_timezoneOffset" : 25200,
+      "_isDeviceEligibleForPE" : false,
+      "_osVersion" : "18.5",
+      "_osName" : "iOS",
+      "Locale" : "VN"
+    }
+  ],
+  "clientId" : "69FA0C7D-A8EB-4909-80EC-BE9701524D7B",
+  "postTime" : 1751548662
+}
+(2025-07-03 13:17:42 +0000) [splunk -> flushMessages] {
+  "events" : [
+    {
+      "_productFamily" : "iPhone",
+      "_build" : "22F76",
+      "_osName" : "iOS",
+      "clientId" : "69FA0C7D-A8EB-4909-80EC-BE9701524D7B",
+      "GracefulTermination" : true,
+      "StorebagVersion" : "1.0.0-1084-gd505943",
+      "_timezoneOffset" : 25200,
+      "_canShareWithDevelopers" : true,
+      "_internal" : 0,
+      "_isDeviceEligibleForPE" : false,
+      "_osVersion" : "18.5",
+      "_sessionID" : "blbnPcWmS8axUsY1sJ\/dIA==",
+      "_productModel" : "iPhone13,1"
+    }
+  ],
+  "clientId" : "69FA0C7D-A8EB-4909-80EC-BE9701524D7B",
+  "postTime" : 1751548662
+}

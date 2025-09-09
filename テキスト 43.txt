@@ -1,0 +1,3 @@
+
+bug_type":"226","timestamp":"2025-07-02 05:26:36.00 +0700","os_version":"iPhone OS 18.5 (22F76)","roots_installed":0,"incident_id":"CF7F0815-1680-4708-A3F9-B9D60495CDD1"}
+{"postTime":1751408795302,"events":[{"SOSCompatMode-softfail":0,"eventType":"sosHealthSummary","SOSInitialized-hardfail":0,"product":"iPhone OS","SOSCompatMode-hardfail":0,"SOSInitialized-success":49,"topic":"xp_sear_keysync","soft_failure_count":0,"eventLinkID":"DB1B1047-196E-4C67-853E-8FFD9EE38CDE","hard_failure_count":0,"SOSCompatMode-success":146,"SOSInitialized-softfail":0,"modelid":"iPhone13,1","success_count":195,"build":"22F76"}]}

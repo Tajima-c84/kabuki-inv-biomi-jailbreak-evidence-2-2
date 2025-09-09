@@ -1,0 +1,523 @@
+
+{"app_name":"DASDelegateService","timestamp":"2025-07-02 17:09:21.00 +0700","app_version":"1.0","slice_uuid":"9D9D2336-EB3A-3720-BE1C-7A94D9EDDCB4","build_version":"1","bundleID":"com.apple.DASDelegateService","duration_ms":"127207","share_with_app_devs":1,"is_first_party":0,"bug_type":"202","os_version":"iPhone OS 18.5 (22F76)","roots_installed":0,"name":"DASDelegateService","incident_id":"24C7626E-F870-4BE5-AFBD-6265A1FBF958"}
+Date/Time:        2025-07-02 17:07:10.248 +0700
+End time:         2025-07-02 17:09:17.455 +0700
+OS Version:       iPhone OS 18.5 (Build 22F76)
+Architecture:     arm64e
+Report Version:   60
+Incident Identifier: 24C7626E-F870-4BE5-AFBD-6265A1FBF958
+Share With Devs:  Yes
+
+Data Source:      Microstackshots
+Shared Cache:     FD772B1B-8842-3FD6-BB0D-CA5CB277A668 slid base address 0x187900000, slide 0x7900000
+
+Command:          DASDelegateService
+Path:             /System/Library/PrivateFrameworks/DASDelegate.framework/XPCServices/DASDelegateService.xpc/DASDelegateService
+Identifier:       com.apple.DASDelegateService
+Version:          1.0 (1)
+Resource Coalition: "com.apple.DASDelegateService"(1057)
+On Behalf Of:     6 samples dasd [80] (6 samples originated by dasd [80])
+Architecture:     arm64e
+Parent:           UNKNOWN [1]
+PID:              1338
+
+Event:            cpu usage
+Action taken:     none
+CPU:              90 seconds cpu time over 127 seconds (71% cpu average), exceeding limit of 50% cpu over 180 seconds
+CPU limit:        90s
+Limit duration:   180s
+CPU used:         90s
+CPU duration:     127s
+Duration:         127.21s
+Duration Sampled: 125.58s (event starts 1.39s before samples, event ends 0.24s after samples)
+Steps:            25
+
+Hardware model:   iPhone13,1
+Active cpus:      6
+Memory size:      3.61 GB
+HW page size:     16384
+VM page size:     16384
+Shared cache residency: 10.32% (504.80 MB / 4892.14 MB)
+
+Time Since Boot:  19662s
+Time Awake Since Boot: 14027s
+Time Since Wake:  1668s
+
+Total CPU Time:   258.220s
+Advisory levels:  Battery -> 3, User -> 3, ThermalPressure -> 0, Combined -> 3
+Free disk space:  29.29 GB/59.48 GB, low space threshold 150 MB
+Vnodes Available: 59.65% (11930/20000, 10000 allocated, 10000 soft limit)
+Models:           none
+
+Preferred User Language: ja-VN, zh-Hans-VN
+Country Code:     VN
+Keyboards:        ja_JP-Kana Kana, en_JP QWERTY
+OS Cryptex File Extents: 1
+
+Heaviest stack for the target process:
+  6  ??? (libsystem_pthread.dylib + 2732) [0x214b90aac]
+  6  ??? (libsystem_pthread.dylib + 2572) [0x214b90a0c]
+  6  ??? (libdispatch.dylib + 84576) [0x192423a60]
+  6  ??? (libdispatch.dylib + 86492) [0x1924241dc]
+  6  ??? (libdispatch.dylib + 44460) [0x192419dac]
+  6  ??? (libdispatch.dylib + 41680) [0x1924192d0]
+  6  ??? (libdispatch.dylib + 112004) [0x19242a584]
+  6  ??? (libdispatch.dylib + 6828) [0x192410aac]
+  6  ??? (LoggingSupport + 35960) [0x1a9636c78]
+  6  ??? (LoggingSupport + 36588) [0x1a9636eec]
+  6  ??? (LoggingSupport + 37564) [0x1a96372bc]
+  5  ??? (LoggingSupport + 48284) [0x1a9639c9c]
+  5  ??? (LoggingSupport + 50228) [0x1a963a434]
+  5  ??? (LoggingSupport + 50408) [0x1a963a4e8]
+  4  ??? (LoggingSupport + 42832) [0x1a9638750]
+  4  ??? (LoggingSupport + 55640) [0x1a963b958]
+  4  ??? (Foundation + 357148) [0x18915631c]
+  4  ??? (Foundation + 357492) [0x189156474]
+  4  ??? (Foundation + 357148) [0x18915631c]
+  4  ??? (Foundation + 357640) [0x189156508]
+  4  ??? (Foundation + 357148) [0x18915631c]
+  3  ??? (Foundation + 357492) [0x189156474]
+  3  ??? (Foundation + 363524) [0x189157c04]
+  3  ??? (Foundation + 358076) [0x1891566bc]
+  3  ??? (Foundation + 358996) [0x189156a54]
+  1  ??? (Foundation + 363052) [0x189157a2c]
+  1  ??? (Foundation + 328160) [0x18914f1e0]
+  1  ??? (CoreFoundation + 461600) [0x18a4f5b20]
+  1  ??? (libsystem_c.dylib + 40908) [0x19245efcc]
+  1  ??? (CoreFoundation + 461736) [0x18a4f5ba8]
+  1  ??? (libsystem_platform.dylib + 12048) [0x214ae7f10]
+
+
+Powerstats for:   DASDelegateService [1338]
+UUID:             9D9D2336-EB3A-3720-BE1C-7A94D9EDDCB4
+Path:             /System/Library/PrivateFrameworks/DASDelegate.framework/XPCServices/DASDelegateService.xpc/DASDelegateService
+Identifier:       com.apple.DASDelegateService
+Version:          1.0 (1)
+Resource Coalition: 6 samples "com.apple.DASDelegateService"(1057)
+On Behalf Of:     6 samples dasd [80] (6 samples originated by dasd [80])
+Architecture:     arm64e
+Parent:           UNKNOWN [1]
+UID:              0
+Sudden Term:      Tracked (allows idle exit)
+Footprint:        4512 KB -> 2416 KB (-2096 KB)
+Pageins:          3953 pages
+Start time:       2025-07-02 17:07:12.049 +0700
+End time:         2025-07-02 17:09:17.212 +0700
+Num samples:      6 (24%)
+Num threads:      2
+Primary state:    6 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified, e-core
+User Activity:    6 samples Idle, 0 samples Active
+Power Source:     0 samples on Battery, 6 samples on AC
+  6  ??? (libsystem_pthread.dylib + 2732) [0x214b90aac]
+    6  ??? (libsystem_pthread.dylib + 2572) [0x214b90a0c]
+      6  ??? (libdispatch.dylib + 84576) [0x192423a60]
+        6  ??? (libdispatch.dylib + 86492) [0x1924241dc]
+          6  ??? (libdispatch.dylib + 44460) [0x192419dac]
+            6  ??? (libdispatch.dylib + 41680) [0x1924192d0]
+              6  ??? (libdispatch.dylib + 112004) [0x19242a584]
+                6  ??? (libdispatch.dylib + 6828) [0x192410aac]
+                  6  ??? (LoggingSupport + 35960) [0x1a9636c78]
+                    6  ??? (LoggingSupport + 36588) [0x1a9636eec]
+                      6  ??? (LoggingSupport + 37564) [0x1a96372bc]
+                        5  ??? (LoggingSupport + 48284) [0x1a9639c9c]
+                          5  ??? (LoggingSupport + 50228) [0x1a963a434]
+                            5  ??? (LoggingSupport + 50408) [0x1a963a4e8]
+                              4  ??? (LoggingSupport + 42832) [0x1a9638750]
+                                4  ??? (LoggingSupport + 55640) [0x1a963b958]
+                                  4  ??? (Foundation + 357148) [0x18915631c]
+                                    4  ??? (Foundation + 357492) [0x189156474]
+                                      4  ??? (Foundation + 357148) [0x18915631c]
+                                        4  ??? (Foundation + 357640) [0x189156508]
+                                          4  ??? (Foundation + 357148) [0x18915631c]
+                                            3  ??? (Foundation + 357492) [0x189156474]
+                                              3  ??? (Foundation + 363524) [0x189157c04]
+                                                3  ??? (Foundation + 358076) [0x1891566bc]
+                                                  3  ??? (Foundation + 358996) [0x189156a54]
+                                                    1  ??? (Foundation + 363052) [0x189157a2c]
+                                                      1  ??? (Foundation + 328160) [0x18914f1e0]
+                                                        1  ??? (CoreFoundation + 461600) [0x18a4f5b20]
+                                                          1  ??? (libsystem_c.dylib + 40908) [0x19245efcc]
+                                                            1  ??? (CoreFoundation + 461736) [0x18a4f5ba8]
+                                                              1  ??? (libsystem_platform.dylib + 12048) [0x214ae7f10]
+                                                                1  <on behalf of dasd [80] (originated by dasd [80])>
+                                                    1  ??? (Foundation + 363020) [0x189157a0c]
+                                                      1  ??? (Foundation + 207160) [0x189131938]
+                                                        1  ??? (Foundation + 366864) [0x189158910]
+                                                          1  ??? (CoreFoundation + 748324) [0x18a53bb24]
+                                                            1  ??? (Foundation + 85588) [0x189113e54]
+                                                              1  ??? (CoreFoundation + 169500) [0x18a4ae61c]
+                                                                1  ??? (CoreFoundation + 53504) [0x18a492100]
+                                                                  1  <on behalf of dasd [80] (originated by dasd [80])>
+                                                    1  ??? (Foundation + 362968) [0x1891579d8]
+                                                      1  ??? (Foundation + 204152) [0x189130d78]
+                                                        1  ??? (Foundation + 73476) [0x189110f04]
+                                                          1  ??? (CoreFoundation + 166424) [0x18a4ada18]
+                                                            1  <on behalf of dasd [80] (originated by dasd [80])>
+                                            1  ??? (libobjc.A.dylib + 7248) [0x187a09c50]
+                                              1  <on behalf of dasd [80] (originated by dasd [80])>
+                              1  ??? (LoggingSupport + 42548) [0x1a9638634]
+                                1  ??? (LoggingSupport + 50564) [0x1a963a584]
+                                  1  ??? (Foundation + 8852) [0x189101294]
+                                    1  ??? (CoreFoundation + 12808) [0x18a488208]
+                                      1  ??? (CoreFoundation + 11276) [0x18a487c0c]
+                                        1  ??? (CoreFoundation + 35588) [0x18a48db04]
+                                          1  ??? (libsystem_platform.dylib + 4500) [0x214ae6194]
+                                            1  <on behalf of dasd [80] (originated by dasd [80])>
+                        1  ??? (LoggingSupport + 47220) [0x1a9639874]
+                          1  ??? (LoggingSupport + 49056) [0x1a9639fa0]
+                            1  ??? (LoggingSupport + 15528) [0x1a9631ca8]
+                              1  ??? (LoggingSupport + 14484) [0x1a9631894]
+                                1  ??? (LoggingSupport + 49236) [0x1a963a054]
+                                  1  ??? (LoggingSupport + 40672) [0x1a9637ee0]
+                                    1  ??? (LoggingSupport + 40840) [0x1a9637f88]
+                                      1  ??? (LoggingSupport + 40392) [0x1a9637dc8]
+                                        1  ??? (LoggingSupport + 41232) [0x1a9638110]
+                                          1  ??? (LoggingSupport + 39912) [0x1a9637be8]
+                                            1  ??? (LoggingSupport + 10612) [0x1a9630974]
+                                              1  ??? (CoreFoundation + 364252) [0x18a4ddedc]
+                                                1  ??? (libobjc.A.dylib + 7352) [0x187a09cb8]
+                                                  1  <on behalf of dasd [80] (originated by dasd [80])>
+
+  Binary Images:
+           0x104b70000 -                ???  com.apple.DASDelegateService 1.0 (1) <9D9D2336-EB3A-3720-BE1C-7A94D9EDDCB4>  /System/Library/PrivateFrameworks/DASDelegate.framework/XPCServices/DASDelegateService.xpc/DASDelegateService
+           0x187a08000 -        0x187a59bb3  libobjc.A.dylib                      <ED7C5FC7-DDC7-3424-9C44-DB56F51B8BE2>  /usr/lib/libobjc.A.dylib
+           0x1890ff000 -        0x189d72ddf  Foundation                           <34DE055D-8683-380A-9198-C3347211D13D>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18a485000 -        0x18aa01fff  CoreFoundation                       <7821F73C-378B-3A10-BE90-EF526B7DBA93>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x19240f000 -        0x192454b1f  libdispatch.dylib                    <395DA84F-715D-334E-8D41-A16CD93FC83C>  /usr/lib/system/libdispatch.dylib
+           0x192455000 -        0x1924d48ef  libsystem_c.dylib                    <93F93D7C-245F-3395-822D-EC61FFAE79CF>  /usr/lib/system/libsystem_c.dylib
+           0x1a962e000 -        0x1a96af83f  LoggingSupport                       <3825671C-4C43-314E-8D7B-CB62A95936D6>  /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+           0x214ae5000 -        0x214aec60f  libsystem_platform.dylib             <2FEF24DE-6723-3799-A5C5-9E3DF1CD2600>  /usr/lib/system/libsystem_platform.dylib
+           0x214b90000 -        0x214b9c3f3  libsystem_pthread.dylib              <B37430D8-E3AF-33E4-81E1-FAED9EE26E8A>  /usr/lib/system/libsystem_pthread.dylib
+
+
+Powerstats for:   signpost_reporter
+UUID:             F6028E96-24A7-3A4C-A580-3117D29C2C84
+Path:             /usr/libexec/signpost_reporter
+Resource Coalition: 9 samples "com.apple.signpost.signpost_reporter"(1032)
+On Behalf Of:     9 samples UNKNOWN [31] (9 samples originated by UNKNOWN [31])
+Architecture:     arm64e
+Start time:       2025-07-02 17:07:11.635 +0700
+End time:         2025-07-02 17:08:55.284 +0700
+Num samples:      9 (36%)
+Primary state:    9 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Background, Requested Thread QoS Background, Override Thread QoS Unspecified, e-core
+User Activity:    9 samples Idle, 0 samples Active
+Power Source:     0 samples on Battery, 9 samples on AC
+  9  ??? (libsystem_pthread.dylib + 2732) [0x214b90aac]
+    9  ??? (libsystem_pthread.dylib + 2572) [0x214b90a0c]
+      9  ??? (libdispatch.dylib + 84576) [0x192423a60]
+        9  ??? (libdispatch.dylib + 86492) [0x1924241dc]
+          9  ??? (libdispatch.dylib + 44460) [0x192419dac]
+            9  ??? (libdispatch.dylib + 41680) [0x1924192d0]
+              9  ??? (libdispatch.dylib + 112004) [0x19242a584]
+                9  ??? (libdispatch.dylib + 6828) [0x192410aac]
+                  9  ??? (LoggingSupport + 35960) [0x1a9636c78]
+                    9  ??? (LoggingSupport + 36588) [0x1a9636eec]
+                      9  ??? (LoggingSupport + 37564) [0x1a96372bc]
+                        9  ??? (LoggingSupport + 48284) [0x1a9639c9c]
+                          9  ??? (LoggingSupport + 50228) [0x1a963a434]
+                            9  ??? (LoggingSupport + 50408) [0x1a963a4e8]
+                              9  ??? (LoggingSupport + 42832) [0x1a9638750]
+                                9  ??? (LoggingSupport + 55716) [0x1a963b9a4]
+                                  9  ??? (SignpostCollection + 6020) [0x225196784]
+                                    6  ??? (SignpostCollection + 6916) [0x225196b04]
+                                      6  ??? (SignpostSupport + 14968) [0x1acaada78]
+                                        3  ??? (SignpostSupport + 16092) [0x1acaadedc]
+                                          2  ??? (SignpostSupport + 16376) [0x1acaadff8]
+                                            2  ??? (SignpostSupport + 16896) [0x1acaae200]
+                                              2  ??? (SignpostSupport + 17788) [0x1acaae57c]
+                                                1  ??? (SignpostSupport + 17648) [0x1acaae4f0]
+                                                  1  ??? (SignpostSupport + 27932) [0x1acab0d1c]
+                                                    1  ??? (SignpostSupport + 27844) [0x1acab0cc4]
+                                                      1  ??? (CoreFoundation + 35732) [0x18a48db94]
+                                                        1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                                1  ??? (SignpostSupport + 17604) [0x1acaae4c4]
+                                                  1  ??? (SignpostSupport + 26996) [0x1acab0974]
+                                                    1  ??? (SignpostSupport + 28576) [0x1acab0fa0]
+                                                      1  ??? (libobjc.A.dylib + 48300) [0x187a13cac]
+                                                        1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                          1  ??? (SignpostSupport + 16412) [0x1acaae01c]
+                                            1  ??? (SignpostSupport + 32288) [0x1acab1e20]
+                                              1  ??? (signpost_reporter + 22928) [0x102aad990]
+                                                1  ??? (SignpostSupport + 245672) [0x1acae5fa8]
+                                                  1  ??? (SignpostSupport + 245116) [0x1acae5d7c]
+                                                    1  ??? (SignpostSupport + 184024) [0x1acad6ed8]
+                                                      1  ??? (SignpostSupport + 181716) [0x1acad65d4]
+                                                        1  ??? (SignpostSupport + 178536) [0x1acad5968]
+                                                          1  ??? (SignpostSupport + 178036) [0x1acad5774]
+                                                            1  ??? (SignpostSupport + 157388) [0x1acad06cc]
+                                                              1  ??? (SignpostSupport + 158756) [0x1acad0c24]
+                                                                1  ??? (Foundation + 73476) [0x189110f04]
+                                                                  1  ??? (CoreFoundation + 41296) [0x18a48f150]
+                                                                    1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                        2  ??? (SignpostSupport + 15824) [0x1acaaddd0]
+                                          2  ??? (SignpostSupport + 18736) [0x1acaae930]
+                                            2  ??? (SignpostSupport + 17788) [0x1acaae57c]
+                                              2  ??? (SignpostSupport + 18864) [0x1acaae9b0]
+                                                2  ??? (SignpostSupport + 19188) [0x1acaaeaf4]
+                                                  2  ??? (SignpostSupport + 20072) [0x1acaaee68]
+                                                    2  ??? (Foundation + 8852) [0x189101294]
+                                                      2  ??? (CoreFoundation + 12808) [0x18a488208]
+                                                        1  ??? (CoreFoundation + 11220) [0x18a487bd4]
+                                                          1  ??? (CoreFoundation + 33316) [0x18a48d224]
+                                                            1  ??? (libsystem_malloc.dylib + 76016) [0x19acb28f0]
+                                                              1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                                        1  ??? (CoreFoundation + 11204) [0x18a487bc4]
+                                                          1  ??? (CoreFoundation + 26496) [0x18a48b780]
+                                                            1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                        1  ??? (SignpostSupport + 15616) [0x1acaadd00]
+                                          1  ??? (SignpostSupport + 37452) [0x1acab324c]
+                                            1  ??? (SignpostSupport + 38064) [0x1acab34b0]
+                                              1  ??? (SignpostSupport + 40376) [0x1acab3db8]
+                                                1  ??? (SignpostSupport + 35404) [0x1acab2a4c]
+                                                  1  ??? (SignpostSupport + 29856) [0x1acab14a0]
+                                                    1  ??? (SignpostSupport + 30016) [0x1acab1540]
+                                                      1  ??? (Foundation + 8860) [0x18910129c]
+                                                        1  ??? (libobjc.A.dylib + 43008) [0x187a12800]
+                                                          1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                    3  ??? (SignpostCollection + 6896) [0x225196af0]
+                                      2  ??? (SignpostCollection + 8116) [0x225196fb4]
+                                        1  ??? (SignpostCollection + 8752) [0x225197230]
+                                          1  ??? (LoggingSupport + 94204) [0x1a9644ffc]
+                                            1  ??? (libsystem_malloc.dylib + 76756) [0x19acb2bd4]
+                                              1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                        1  ??? (SignpostCollection + 8592) [0x225197190]
+                                          1  ??? (LoggingSupport + 82932) [0x1a96423f4]
+                                            1  ??? (LoggingSupport + 85096) [0x1a9642c68]
+                                              1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+                                      1  ??? (SignpostCollection + 7740) [0x225196e3c]
+                                        1  ??? (LoggingSupport + 77516) [0x1a9640ecc]
+                                          1  ??? (LoggingSupport + 78336) [0x1a9641200]
+                                            1  ??? (libsystem_c.dylib + 153436) [0x19247a75c]
+                                              1  <on behalf of UNKNOWN [31] (originated by UNKNOWN [31])>
+
+  Binary Images:
+           0x102aa8000 -                ???  signpost_reporter       <F6028E96-24A7-3A4C-A580-3117D29C2C84>  /usr/libexec/signpost_reporter
+           0x187a08000 -        0x187a59bb3  libobjc.A.dylib         <ED7C5FC7-DDC7-3424-9C44-DB56F51B8BE2>  /usr/lib/libobjc.A.dylib
+           0x1890ff000 -        0x189d72ddf  Foundation              <34DE055D-8683-380A-9198-C3347211D13D>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18a485000 -        0x18aa01fff  CoreFoundation          <7821F73C-378B-3A10-BE90-EF526B7DBA93>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x19240f000 -        0x192454b1f  libdispatch.dylib       <395DA84F-715D-334E-8D41-A16CD93FC83C>  /usr/lib/system/libdispatch.dylib
+           0x192455000 -        0x1924d48ef  libsystem_c.dylib       <93F93D7C-245F-3395-822D-EC61FFAE79CF>  /usr/lib/system/libsystem_c.dylib
+           0x19aca0000 -        0x19acdffef  libsystem_malloc.dylib  <B6554432-3BBE-3AC9-870D-779DCA3F0CB4>  /usr/lib/system/libsystem_malloc.dylib
+           0x1a962e000 -        0x1a96af83f  LoggingSupport          <3825671C-4C43-314E-8D7B-CB62A95936D6>  /System/Library/PrivateFrameworks/LoggingSupport.framework/LoggingSupport
+           0x1acaaa000 -        0x1acb2eadf  SignpostSupport         <9059EC32-F2F6-31EF-859D-B02ED1735134>  /System/Library/PrivateFrameworks/SignpostSupport.framework/SignpostSupport
+           0x214b90000 -        0x214b9c3f3  libsystem_pthread.dylib <B37430D8-E3AF-33E4-81E1-FAED9EE26E8A>  /usr/lib/system/libsystem_pthread.dylib
+           0x225195000 -        0x2251a20df  SignpostCollection      <F312CEBA-AD0B-3B5A-BE99-569C7C91CB16>  /System/Library/PrivateFrameworks/SignpostCollection.framework/SignpostCollection
+
+
+Powerstats for:   BackgroundShortcutRunner
+UUID:             FE401E8E-19FD-38C8-A4A8-78FA7A76D894
+Path:             /System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner
+Identifier:       com.apple.WorkflowKit.BackgroundShortcutRunner
+Version:          7.0 (3607.0.2)
+Resource Coalition: 7 samples "com.apple.siriactionsd"(233)
+On Behalf Of:     7 samples UNKNOWN [151] (7 samples originated by UNKNOWN [151])
+Architecture:     arm64e
+Start time:       2025-07-02 17:07:35.770 +0700
+End time:         2025-07-02 17:08:56.761 +0700
+Num samples:      7 (28%)
+Primary state:    7 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Background, Requested Thread QoS User Initiated, Override Thread QoS Unspecified, e-core
+User Activity:    7 samples Idle, 0 samples Active
+Power Source:     0 samples on Battery, 7 samples on AC
+  7  ??? (libswift_Concurrency.dylib + 414272) [0x196069240]
+    7  ??? (ToolKit + 117912) [0x266378c98]
+      7  ??? (ToolKit + 117380) [0x266378a84]
+        7  ??? (ToolKit + 117912) [0x266378c98]
+          7  ??? (ToolKit + 1658168) [0x2664f0d38]
+            7  ??? (ToolKit + 117912) [0x266378c98]
+              7  ??? (ToolKit + 1653620) [0x2664efb74]
+                7  ??? (BackgroundShortcutRunner + 58424) [0x10285a438]
+                  5  ??? (BackgroundShortcutRunner + 110216) [0x102866e88]
+                    3  ??? (BackgroundShortcutRunner + 127544) [0x10286b238]
+                      3  ??? (BackgroundShortcutRunner + 147472) [0x102870010]
+                        2  ??? (BackgroundShortcutRunner + 69452) [0x10285cf4c]
+                          2  ??? (ActionKit + 608020) [0x2426d5714]
+                            2  ??? (ToolKit + 983636) [0x26644c254]
+                              2  ??? (ToolKit + 982096) [0x26644bc50]
+                                2  ??? (ActionKit + 614140) [0x2426d6efc]
+                                  1  ??? (ActionKit + 618000) [0x2426d7e10]
+                                    1  ??? (ActionKit + 626852) [0x2426da0a4]
+                                      1  ??? (ActionKit + 613748) [0x2426d6d74]
+                                        1  ??? (WorkflowKit + 2574020) [0x1cfa686c4]
+                                          1  ??? (ContentKit + 717428) [0x21dd73274]
+                                            1  ??? (Foundation + 2450212) [0x189355324]
+                                              1  ??? (Foundation + 2450164) [0x1893552f4]
+                                                1  ??? (Foundation + 2443140) [0x189353784]
+                                                  1  ??? (Foundation + 2447116) [0x18935470c]
+                                                    1  ??? (Foundation + 1297472) [0x18923bc40]
+                                                      1  ??? (CoreFoundation + 374028) [0x18a4e050c]
+                                                        1  ??? (CoreFoundation + 376092) [0x18a4e0d1c]
+                                                          1  ??? (CoreFoundation + 850568) [0x18a554a88]
+                                                            1  ??? (CoreFoundation + 849860) [0x18a5547c4]
+                                                              1  ??? (CoreFoundation + 851444) [0x18a554df4]
+                                                                1  ??? (CoreFoundation + 706380) [0x18a53174c]
+                                                                  1  ??? (CoreFoundation + 208724) [0x18a4b7f54]
+                                                                    1  ??? (CoreFoundation + 709844) [0x18a5324d4]
+                                                                      1  ??? (CoreFoundation + 208724) [0x18a4b7f54]
+                                                                        1  ??? (CoreFoundation + 709380) [0x18a532304]
+                                                                          1  ??? (CoreFoundation + 204788) [0x18a4b6ff4]
+                                                                            1  ??? (CoreFoundation + 734916) [0x18a5386c4]
+                                                                              1  ??? (CoreFoundation + 32532) [0x18a48cf14]
+                                                                                1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                                  1  ??? (ActionKit + 617328) [0x2426d7b70]
+                                    1  ??? (WorkflowKit + 2994552) [0x1cfacf178]
+                                      1  ??? (ToolKit + 1221260) [0x26648628c]
+                                        1  ??? (LinkMetadata + 157224) [0x1a51be628]
+                                          1  ??? (Foundation + 2442748) [0x1893535fc]
+                                            1  ??? (Foundation + 2443140) [0x189353784]
+                                              1  ??? (Foundation + 2446056) [0x1893542e8]
+                                                1  ??? (Foundation + 2651604) [0x1893865d4]
+                                                  1  ??? (CoreFoundation + 765500) [0x18a53fe3c]
+                                                    1  ??? (CoreFoundation + 742936) [0x18a53a618]
+                                                      1  ??? (CoreFoundation + 744344) [0x18a53ab98]
+                                                        1  ??? (libicucore.A.dylib + 367492) [0x19435ab84]
+                                                          1  ??? (libicucore.A.dylib + 365384) [0x19435a348]
+                                                            1  ??? (libicucore.A.dylib + 644636) [0x19439e61c]
+                                                              1  ??? (libsystem_platform.dylib + 9916) [0x214ae76bc]
+                                                                1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                        1  ??? (BackgroundShortcutRunner + 69944) [0x10285d138]
+                          1  ??? (BackgroundShortcutRunner + 71844) [0x10285d8a4]
+                            1  ??? (BackgroundShortcutRunner + 67652) [0x10285c844]
+                              1  ??? (BackgroundShortcutRunner + 85840) [0x102860f50]
+                                1  ??? (WorkflowKit + 2993296) [0x1cfacec90]
+                                  1  ??? (WorkflowKit + 1155772) [0x1cf90e2bc]
+                                    1  ??? (WorkflowKit + 1143416) [0x1cf90b278]
+                                      1  ??? (LinkMetadata + 158036) [0x1a51be954]
+                                        1  ??? (Foundation + 2450212) [0x189355324]
+                                          1  ??? (Foundation + 2450164) [0x1893552f4]
+                                            1  ??? (Foundation + 2443140) [0x189353784]
+                                              1  ??? (Foundation + 2447116) [0x18935470c]
+                                                1  ??? (Foundation + 1297472) [0x18923bc40]
+                                                  1  ??? (CoreFoundation + 374028) [0x18a4e050c]
+                                                    1  ??? (CoreFoundation + 375876) [0x18a4e0c44]
+                                                      1  ??? (CoreFoundation + 736328) [0x18a538c48]
+                                                        1  ??? (CoreFoundation + 815488) [0x18a54c180]
+                                                          1  ??? (CoreFoundation + 693664) [0x18a52e5a0]
+                                                            1  ??? (CoreFoundation + 699332) [0x18a52fbc4]
+                                                              1  ??? (CoreFoundation + 701016) [0x18a530258]
+                                                                1  ??? (CoreFoundation + 76844) [0x18a497c2c]
+                                                                  1  ??? (libobjc.A.dylib + 7168) [0x187a09c00]
+                                                                    1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                    1  ??? (BackgroundShortcutRunner + 125636) [0x10286aac4]
+                      1  ??? (WorkflowKit + 57348) [0x1cf802004]
+                        1  ??? (WorkflowKit + 63768) [0x1cf803918]
+                          1  ??? (WorkflowKit + 5976684) [0x1cfda726c]
+                            1  ??? (WorkflowKit + 6149508) [0x1cfdd1584]
+                              1  ??? (WorkflowKit + 57796) [0x1cf8021c4]
+                                1  ??? (IntentsFoundation + 5744) [0x1e42b2670]
+                                  1  ??? (WorkflowKit + 66464) [0x1cf8043a0]
+                                    1  ??? (WorkflowKit + 201628) [0x1cf82539c]
+                                      1  ??? (WorkflowKit + 183032) [0x1cf820af8]
+                                        1  ??? (CoreFoundation + 498404) [0x18a4feae4]
+                                          1  ??? (CoreFoundation + 123548) [0x18a4a329c]
+                                            1  ??? (WorkflowKit + 184016) [0x1cf820ed0]
+                                              1  ??? (Foundation + 2450212) [0x189355324]
+                                                1  ??? (Foundation + 2450164) [0x1893552f4]
+                                                  1  ??? (Foundation + 2443140) [0x189353784]
+                                                    1  ??? (Foundation + 2446056) [0x1893542e8]
+                                                      1  ??? (Foundation + 2651604) [0x1893865d4]
+                                                        1  ??? (CoreFoundation + 765500) [0x18a53fe3c]
+                                                          1  ??? (CoreFoundation + 742936) [0x18a53a618]
+                                                            1  ??? (CoreFoundation + 744444) [0x18a53abfc]
+                                                              1  ??? (libsystem_malloc.dylib + 20204) [0x19aca4eec]
+                                                                1  ??? (libsystem_kernel.dylib + 24204) [0x1db6a8e8c]
+                                                                  1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                    1  ??? (BackgroundShortcutRunner + 124264) [0x10286a568]
+                      1  ??? (BackgroundShortcutRunner + 74020) [0x10285e124]
+                        1  ??? (ActionKit + 544868) [0x2426c6064]
+                          1  ??? (WorkflowKit + 2994552) [0x1cfacf178]
+                            1  ??? (ToolKit + 1221260) [0x26648628c]
+                              1  ??? (LinkMetadata + 157224) [0x1a51be628]
+                                1  ??? (Foundation + 2442748) [0x1893535fc]
+                                  1  ??? (Foundation + 2443140) [0x189353784]
+                                    1  ??? (Foundation + 2446752) [0x1893545a0]
+                                      1  ??? (Foundation + 2651604) [0x1893865d4]
+                                        1  ??? (CoreFoundation + 765500) [0x18a53fe3c]
+                                          1  ??? (CoreFoundation + 742936) [0x18a53a618]
+                                            1  ??? (CoreFoundation + 744344) [0x18a53ab98]
+                                              1  ??? (libicucore.A.dylib + 367492) [0x19435ab84]
+                                                1  ??? (libicucore.A.dylib + 365492) [0x19435a3b4]
+                                                  1  ??? (libsystem_platform.dylib + 11800) [0x214ae7e18]
+                                                    1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                  2  ??? (BackgroundShortcutRunner + 110632) [0x102867028]
+                    2  ??? (BackgroundShortcutRunner + 137476) [0x10286d904]
+                      2  ??? (BackgroundShortcutRunner + 151748) [0x1028710c4]
+                        1  ??? (BackgroundShortcutRunner + 196200) [0x10287be68]
+                          1  ??? (ToolKit + 1659504) [0x2664f1270]
+                            1  ??? (ToolKit + 1647780) [0x2664ee4a4]
+                              1  ??? (ToolKit + 1646064) [0x2664eddf0]
+                                1  ??? (GRDBInternal + 809392) [0x25506e9b0]
+                                  1  ??? (GRDBInternal + 805376) [0x25506da00]
+                                    1  ??? (GRDBInternal + 5584) [0x254faa5d0]
+                                      1  ??? (libswiftDispatch.dylib + 7268) [0x193aefc64]
+                                        1  ??? (libswiftDispatch.dylib + 5624) [0x193aef5f8]
+                                          1  ??? (libswiftDispatch.dylib + 5176) [0x193aef438]
+                                            1  ??? (libswiftDispatch.dylib + 7676) [0x193aefdfc]
+                                              1  ??? (libswiftDispatch.dylib + 7512) [0x193aefd58]
+                                                1  ??? (libdispatch.dylib + 71464) [0x192420728]
+                                                  1  ??? (libdispatch.dylib + 112004) [0x19242a584]
+                                                    1  ??? (libswiftDispatch.dylib + 7308) [0x193aefc8c]
+                                                      1  ??? (libswiftDispatch.dylib + 7728) [0x193aefe30]
+                                                        1  ??? (libswiftDispatch.dylib + 7972) [0x193aeff24]
+                                                          1  ??? (libswiftDispatch.dylib + 8124) [0x193aeffbc]
+                                                            1  ??? (libswiftDispatch.dylib + 7768) [0x193aefe58]
+                                                              1  ??? (GRDBInternal + 9948) [0x254fab6dc]
+                                                                1  ??? (GRDBInternal + 9764) [0x254fab624]
+                                                                  1  ??? (ToolKit + 1655900) [0x2664f045c]
+                                                                    1  ??? (ToolKit + 1646972) [0x2664ee17c]
+                                                                      1  ??? (ToolKit + 1661920) [0x2664f1be0]
+                                                                        1  ??? (ToolKit + 1659928) [0x2664f1418]
+                                                                          1  ??? (BackgroundShortcutRunner + 327024) [0x10289bd70]
+                                                                            1  ??? (BackgroundShortcutRunner + 264628) [0x10288c9b4]
+                                                                              1  ??? (WorkflowKit + 5969508) [0x1cfda5664]
+                                                                                1  ??? (LinkMetadata + 157224) [0x1a51be628]
+                                                                                  1  ??? (Foundation + 2442748) [0x1893535fc]
+                                                                                    1  ??? (Foundation + 2443140) [0x189353784]
+                                                                                      1  ??? (Foundation + 2446752) [0x1893545a0]
+                                                                                        1  ??? (Foundation + 2651604) [0x1893865d4]
+                                                                                          1  ??? (CoreFoundation + 765500) [0x18a53fe3c]
+                                                                                            1  ??? (CoreFoundation + 742936) [0x18a53a618]
+                                                                                              1  ??? (CoreFoundation + 744344) [0x18a53ab98]
+                                                                                                1  ??? (libicucore.A.dylib + 367492) [0x19435ab84]
+                                                                                                  1  ??? (libsystem_platform.dylib + 26688) [0x214aeb840]
+                                                                                                    1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+                        1  ??? (BackgroundShortcutRunner + 184820) [0x1028791f4]
+                          1  ??? (BackgroundShortcutRunner + 100324) [0x1028647e4]
+                            1  ??? (WorkflowKit + 188956) [0x1cf82221c]
+                              1  ??? (WorkflowKit + 189196) [0x1cf82230c]
+                                1  ??? (WorkflowKit + 5094164) [0x1cfccfb14]
+                                  1  ??? (VoiceShortcutClient + 949372) [0x1bbcc8c7c]
+                                    1  ??? (Foundation + 2442748) [0x1893535fc]
+                                      1  ??? (Foundation + 2443140) [0x189353784]
+                                        1  ??? (Foundation + 2447116) [0x18935470c]
+                                          1  ??? (Foundation + 1297472) [0x18923bc40]
+                                            1  ??? (CoreFoundation + 374028) [0x18a4e050c]
+                                              1  ??? (CoreFoundation + 375876) [0x18a4e0c44]
+                                                1  ??? (CoreFoundation + 737808) [0x18a539210]
+                                                  1  ??? (CoreFoundation + 753348) [0x18a53cec4]
+                                                    1  ??? (CoreFoundation + 703308) [0x18a530b4c]
+                                                      1  ??? (CoreFoundation + 704604) [0x18a53105c]
+                                                        1  ??? (CoreFoundation + 645824) [0x18a522ac0]
+                                                          1  ??? (CoreFoundation + 82756) [0x18a499344]
+                                                            1  ??? (CoreFoundation + 54568) [0x18a492528]
+                                                              1  <on behalf of UNKNOWN [151] (originated by UNKNOWN [151])>
+
+  Binary Images:
+           0x10284c000 -                ???  com.apple.WorkflowKit.BackgroundShortcutRunner 7.0 (3607.0.2) <FE401E8E-19FD-38C8-A4A8-78FA7A76D894>  /System/Library/PrivateFrameworks/WorkflowKit.framework/XPCServices/BackgroundShortcutRunner.xpc/BackgroundShortcutRunner
+           0x187a08000 -        0x187a59bb3  libobjc.A.dylib                                               <ED7C5FC7-DDC7-3424-9C44-DB56F51B8BE2>  /usr/lib/libobjc.A.dylib
+           0x1890ff000 -        0x189d72ddf  Foundation                                                    <34DE055D-8683-380A-9198-C3347211D13D>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18a485000 -        0x18aa01fff  CoreFoundation                                                <7821F73C-378B-3A10-BE90-EF526B7DBA93>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x19240f000 -        0x192454b1f  libdispatch.dylib                                             <395DA84F-715D-334E-8D41-A16CD93FC83C>  /usr/lib/system/libdispatch.dylib
+           0x193aee000 -        0x193b04560  libswiftDispatch.dylib                                        <FAECFE24-F065-33B8-B032-540023BFC6BB>  /usr/lib/swift/libswiftDispatch.dylib
+           0x194301000 -        0x1945c6dc3  libicucore.A.dylib                                            <238B85D1-DAA6-31C5-A37C-512EA2C49D80>  /usr/lib/libicucore.A.dylib
+           0x196004000 -        0x196083a3f  libswift_Concurrency.dylib                                    <DCB9E73A-92BA-3782-BC6D-3E1906622689>  /usr/lib/swift/libswift_Concurrency.dylib
+           0x19aca0000 -        0x19acdffef  libsystem_malloc.dylib                                        <B6554432-3BBE-3AC9-870D-779DCA3F0CB4>  /usr/lib/system/libsystem_malloc.dylib
+           0x1a5198000 -        0x1a52e3aff  LinkMetadata                                                  <DB151AC9-0BB2-3EDC-906C-9D2C1523FB5F>  /System/Library/PrivateFrameworks/LinkMetadata.framework/LinkMetadata
+           0x1bbbe1000 -        0x1bbd7467f  VoiceShortcutClient                                           <34E368D0-0E76-3993-9305-EC0A345755D3>  /System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient
+           0x1cf7f4000 -        0x1cffbdebf  WorkflowKit                                                   <21D9AA86-75BA-3863-ACF0-CF12FE46C760>  /System/Library/PrivateFrameworks/WorkflowKit.framework/WorkflowKit
+           0x1db6a3000 -        0x1db6dcebf  libsystem_kernel.dylib                                        <9E195BE1-1733-345E-A9BF-50D0D7059647>  /usr/lib/system/libsystem_kernel.dylib
+           0x1e42b1000 -        0x1e42c087f  IntentsFoundation                                             <ABFD8938-3736-3951-8D33-19AF7CF62A91>  /System/Library/PrivateFrameworks/IntentsFoundation.framework/IntentsFoundation
+           0x214ae5000 -        0x214aec60f  libsystem_platform.dylib                                      <2FEF24DE-6723-3799-A5C5-9E3DF1CD2600>  /usr/lib/system/libsystem_platform.dylib
+           0x21dcc4000 -        0x21de248ff  ContentKit                                                    <44D28965-5C07-365D-877F-FF2F0124D115>  /System/Library/PrivateFrameworks/ContentKit.framework/ContentKit
+           0x242641000 -        0x242ae9f3f  ActionKit                                                     <89851FF4-3049-3262-912D-DE9E1C2A7F20>  /System/Library/PrivateFrameworks/ActionKit.framework/ActionKit
+           0x254fa9000 -        0x25513b09a  GRDBInternal                                                  <D5750B0D-F9EE-3D02-91D4-E746685B46CF>  /System/Library/PrivateFrameworks/GRDBInternal.framework/GRDBInternal
+           0x26635c000 -        0x266746dbf  ToolKit                                                       <A0E67687-D090-3FAF-9C76-B183EE11DA8D>  /System/Library/PrivateFrameworks/ToolKit.framework/ToolKit
